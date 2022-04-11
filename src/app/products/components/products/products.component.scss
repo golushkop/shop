@@ -1,18 +1,16 @@
 :host {
     display: flex;
     gap: 2em;
+    flex-wrap: wrap;
 
-    .item {
-        display: flex;
-        flex-direction: column;
-        cursor: default;
-        width: 10rem;
-        position: relative;
-        padding: 4rem 2rem;
-        border: 1px solid black;
-        border-radius: 10%;
-        background-color: rgb(255 255 255);
-        line-height: 1;
+    app-item, .add-btn {
+        width: 20%;
+        min-width: 150px;
+    }
+
+    .add-btn {
+        min-height: 90px;
+        font-size: 3rem;
     }
 
     .add-item {
