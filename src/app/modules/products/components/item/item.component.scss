@@ -1,11 +1,15 @@
 :host {
     .card {
         position: relative;
+        width: 100%;
     }
     .remove-btn {
         position: absolute;
         right: 0.5em;
         top: 0.5em;
         cursor: pointer;
+    }
+    .card-body {
+        padding: 2rem;
     }
 }

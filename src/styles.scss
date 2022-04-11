@@ -1,3 +1,5 @@
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
 /* You can add global styles to this file, and also import other style files */
 body {
     font-family: 'Courier New', Courier, monospace;
@@ -5,3 +7,4 @@ body {
     font-size: 16px;
     padding: 0 4em;
 }
+
