@@ -1,0 +1,11 @@
+<app-item 
+*ngFor="let product of products; trakBy: trackByFnc" 
+(removeClick)="onRemoveItemClick($event)"
+[itemId]="product.id"
+[name]="product.name"
+[description]="product.description"
+class="item"
+></app-item>
+<div class="item add-item">
+    <span>+</span>
+</div>

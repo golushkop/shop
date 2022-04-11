@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    gap: 2em;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        cursor: default;
+        width: 10rem;
+        position: relative;
+        padding: 4rem 2rem;
+        border: 1px solid black;
+        border-radius: 10%;
+        background-color: rgb(255 255 255);
+        line-height: 1;
+    }
+
+    .add-item {
+        font-size: 5rem;
+        text-align: center;
+        cursor: pointer;
+    }
+}
